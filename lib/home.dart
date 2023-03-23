@@ -18,8 +18,6 @@ class _HomeState extends State<Home> {
       body: Container(
         color: Colors.lightBlueAccent,
         child: Center(
-          // child: Container(
-          //   color: Colors.purpleAccent,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -50,7 +48,6 @@ class _HomeState extends State<Home> {
                     child: Text("Age Calculator")),
               ],
             ),
-          // )
         ),
       ),
     );
